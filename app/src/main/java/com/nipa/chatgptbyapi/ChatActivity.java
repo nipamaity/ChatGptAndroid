@@ -34,8 +34,8 @@ import java.util.Map;
 public class ChatActivity extends AppCompatActivity {
     private ActivityChatBinding binding;
     private static final String TAG = "MainActivity";
-    //private static final String API_KEY = "YOUR API KEY";
-    private static final String API_KEY = "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";
+   private static final String API_KEY = "YOUR API KEY";
+
     private static final String API_URL = "https://api.openai.com/v1/completions";
     List<ChatModel> chatList=new ArrayList<ChatModel>();
     ChatAdaptor chatAdaptor;
